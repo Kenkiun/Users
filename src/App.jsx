@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import Modal from "./components/Modal"
-import Header from "./components/header"
+import Header from "./components/Header"
 import { useForm } from "react-hook-form"
 import UsersList from "./components/UsersList"
 
