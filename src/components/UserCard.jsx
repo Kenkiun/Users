@@ -4,7 +4,7 @@ const UserCard = ({user, deleteUser, handleClickEdit}) => {
 
   return (
 
-    <article className='p-4 border-[1px] border-gray-700 rounded-md gap-3 grid dark:text-slate-300 dark:border-gray-800'>
+    <article className='p-4 border-[1px] border-gray-700 rounded-[2px] gap-3 grid dark:text-slate-300 dark:border-gray-800'>
 
       <div>
         <img className='w-[100px] aspect-[3/5] object-cover mx-auto rounded-md' src={user.image_url? user.image_url : "/images/noProfile.jpg"} alt="User image"/>
