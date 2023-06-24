@@ -106,7 +106,7 @@ function App() {
 
   return (
     
-    <main className="font-sans bg-slate-50 dark:bg-slate-700 min-h-screen relative">
+    <main className="font-sans bg-yellow-200 dark:bg-slate-700 min-h-screen relative">
 
       <Header setIsShowForm={setIsShowForm} setIsDark={setIsDark} isDark={isDark}/>
       <Modal 

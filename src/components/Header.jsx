@@ -14,7 +14,7 @@ const Header = ({setIsShowForm, setIsDark, isDark}) => {
     
     <header className='gap-14 sm:flex sm:justify-between dark:text-white dark:shadow-gray-950 duration-200 flex flex-col items-center sm:flex-row relative sm:max-h-max mb-[95px] sm:pt-5'>
       
-      <h1 className={`text-[58px] sm:ml-[38px] mt-7 sm:mt-[5px] sm:drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)] sm:border-b-1 max-w-max ${isDark? 'sm:border-0' : 'sm:border-b-2'} justify-center sm:text-[65px] sm:ml-[75px]`}>usuarios</h1>
+      <h1 className={`text-[58px] sm:ml-[38px] mt-7 sm:mt-[5px] sm:drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)] sm:border-b-1 max-w-max ${isDark? 'sm:border-0' : 'sm:border-b-2'} justify-center sm:text-[65px] sm:ml-[75px]`}>users</h1>
 
       <button onClick={handleChangeTheme} className='absolute sm:static top-[15px] right-[15px] flex gap-2 items-center font-semibold'><i className='bx bx-moon text-[27px] sm:text-[45px]'></i>
       </button>

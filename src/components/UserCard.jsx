@@ -11,9 +11,9 @@ const UserCard = ({user, deleteUser, handleClickEdit}) => {
       </div>
       <h3 className='text-center font-medium'>{user.first_name} {user.last_name}</h3>
       <ul className='grid gap-2'>
-        <li className='text-center'>
-        <h4 className='text-center'>Correo</h4>
-        <span className='font-medium'>{user.email}</span>
+        <li className='text-center truncate'>
+          <h4 className='text-center'>Correo</h4>
+          <span className='font-medium'>{user.email}</span>
         </li>
         <li className='text-center'>
           <h4 className='text-center'>Cumpleaños</h4>
